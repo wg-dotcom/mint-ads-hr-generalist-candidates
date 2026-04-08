@@ -198,7 +198,7 @@
       .comparison-table { font-size: 11px; }
     }
   </style>
-</head>
+<style data-batch-switcher="1">.batch-switcher{display:flex;justify-content:center;align-items:center;gap:8px;margin:8px auto 36px;max-width:800px;padding:0 24px}.batch-switcher[data-count="1"]{display:none}.batch-btn{display:flex;align-items:center;gap:8px;padding:11px 22px;border:2px solid var(--border,#e2e8f0);border-radius:10px;background:white;font-size:14px;font-weight:600;color:#6b7280;cursor:pointer;transition:all .2s}.batch-btn:hover{border-color:var(--primary)}.batch-btn.active{background:var(--dark,#131a1b);border-color:var(--dark,#131a1b);color:white}.batch-count{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--primary);color:white;font-size:11px;font-weight:700}.batch-btn.active .batch-count{background:var(--highlight,#00f9b8);color:var(--dark,#131a1b)}.batch-panel.hidden{display:none}</style></head>
 <body>
 
   <div class="site-header">
@@ -261,7 +261,7 @@
     <p>Each candidate has been carefully selected and evaluated for this role.</p>
   </div>
 
-    <div class="candidates">
+    <div class="batch-switcher" id="batch-switcher" data-count="2"><button class="batch-btn active" onclick="showBatch(1)" data-batch="1"><span>Batch 1</span><span class="batch-count">4</span></button><button class="batch-btn" onclick="showBatch(2)" data-batch="2"><span>Batch 2</span><span class="batch-count">1</span></button></div><div id="batch-1" class="batch-panel"><div class="candidates">
       
     <div class="candidate-card">
       <div class="card featured" id="candidate-0">
@@ -727,9 +727,7 @@
         </div>
       </div>
     </div>
-    </div>
-    
-  <div class="comparison-section">
+    </div><div class="comparison-section">
     <div class="section-label" style="padding-bottom:20px;">
       <h2>Side-by-Side Comparison</h2>
       <p>Key criteria at a glance to help you prioritize interviews.</p>
@@ -751,7 +749,153 @@
         </tbody>
       </table>
     </div>
+  </div></div><div id="batch-2" class="batch-panel hidden">
+    <div class="candidates">
+      
+    <div class="candidate-card">
+      <div class="card" id="candidate-6">
+        <div class="card-top">
+          <div class="card-identity">
+            <div class="card-avatar">JS</div>
+            <div>
+              <div class="card-name">Jenniffer S.</div>
+              <div class="card-location">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Guatemala · 5 yrs HR Operations
+              </div>
+              <div class="card-badges">
+                
+                
+              </div>
+            </div>
+          </div>
+          <div class="card-rate">
+            <div class="card-rate-amount">$2,300/mo</div>
+            <div class="card-rate-period">USD / Month</div>
+          </div>
+        </div>
+
+        <div class="card-body">
+          
+          <div class="card-narrative">
+            Jenniffer is the Swiss Army knife pick in this batch. She handles the full employee lifecycle without missing beats. At her current role she reduced onboarding time 30% by redesigning the workflow. Grounded operator who makes complex HR processes simple.
+          </div>
+
+          
+          <div class="card-section-title">Experience Highlights</div>
+          <div class="experience-list">
+            
+            <div class="exp-item">
+              <div class="exp-dot-col">
+                <div class="exp-dot"></div>
+                <div class="exp-line"></div>
+              </div>
+              <div class="exp-content">
+                <div class="exp-role">HR Generalist</div>
+                <div class="exp-company">Central American Foods · Jan 2020 - Present</div>
+                
+              </div>
+            </div>
+            <div class="exp-item">
+              <div class="exp-dot-col">
+                <div class="exp-dot"></div>
+                
+              </div>
+              <div class="exp-content">
+                <div class="exp-role">HR Coordinator</div>
+                <div class="exp-company">Regional Services Group · Mar 2019 - Dec 2019</div>
+                
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="card-section-title">Platforms &amp; Tools</div>
+          <div class="tags-cluster">
+            <span class="ctag ctag-key">Workday</span><span class="ctag ctag-key">BambooHR</span><span class="ctag ctag-key">Payroll</span><span class="ctag ctag-key">Benefits Admin</span><span class="ctag ctag-key">Employee Relations</span>
+            <span class="ctag">HRIS</span>
+          </div>
+
+          
+          <div class="card-section-title">Mint Ads Fit Indicators</div>
+          <div class="fit-grid">
+            
+            <div class="fit-item">
+              <div class="fit-label">5 years HR operations at multi-location companies. Payroll, benefits, compliance daily</div>
+            </div>
+            <div class="fit-item">
+              <div class="fit-label">Workday + BambooHR power user. Built employee onboarding workflows from scratch</div>
+            </div>
+            <div class="fit-item">
+              <div class="fit-label">Managed 200+ employee lifecycle events. Knows the volume and the details</div>
+            </div>
+          </div>
+
+          
+          <div class="card-section-title">Strength Profile</div>
+          <div class="strength-bars">
+            
+            <div class="bar-item">
+              <div class="bar-label">Workday</div>
+              <div class="bar-track"><div class="bar-fill" style="width:95%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label">BambooHR</div>
+              <div class="bar-track"><div class="bar-fill" style="width:90%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label">Payroll</div>
+              <div class="bar-track"><div class="bar-fill" style="width:88%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label">Benefits Admin</div>
+              <div class="bar-track"><div class="bar-fill" style="width:85%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label">Employee Relations</div>
+              <div class="bar-track"><div class="bar-fill" style="width:82%"></div></div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-label">HRIS</div>
+              <div class="bar-track"><div class="bar-fill" style="width:78%"></div></div>
+            </div>
+          </div>
+
+          <div class="card-actions">
+            <a class="video-intro-btn" href="https://drive.google.com/file/d/1r9t4i53MTbo00d8xjCa5D0WkiMeAGj6A/view?usp=drive_link" target="_blank"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>Watch Intro Video</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+  <div class="comparison-section">
+    <div class="section-label" style="padding-bottom:20px;">
+      <h2>Side-by-Side Comparison</h2>
+      <p>Key criteria at a glance to help you prioritize interviews.</p>
+    </div>
+    <div class="comparison-table-wrap">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Criteria</th>
+            <th>Jenniffer S.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Location</strong></td><td>Guatemala</td></tr>
+          <tr><td><strong>Experience</strong></td><td>5 yrs HR Operations</td></tr>
+          <tr><td><strong>Key Skills</strong></td><td>Workday, BambooHR, Payroll, Benefits Admin</td></tr>
+          <tr><td><strong>Rate</strong></td><td>$2,300/mo</td></tr>
+          <tr><td><strong>TAP</strong></td><td>No</td></tr>
+        </tbody>
+      </table>
+    </div>
   </div>
+  </div>
+    
+  
 
   </div><!-- /batch-1 -->
 
@@ -773,7 +917,7 @@
               <div class="card-name">Bennie M</div>
               <div class="card-location">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                Panamá · 15+ yrs HR & Operations
+                Panamá · 15+ yrs HR &amp; Operations
               </div>
               <div class="card-badges">
                 <span class="badge badge-shortlisted">Pre-Shortlisted</span>
@@ -810,7 +954,7 @@
                 <div class="exp-line"></div>
               </div>
               <div class="exp-content">
-                <div class="exp-role">Chief of Staff & People Ops Lead</div>
+                <div class="exp-role">Chief of Staff &amp; People Ops Lead</div>
                 <div class="exp-company">Bloomberg Línea · May 2022 – Mar 2025</div>
                 <div class="exp-highlight">Strategic ops across editorial, revenue, product teams in 18+ countries</div>
               </div>
@@ -831,14 +975,14 @@
                 <div class="exp-dot"></div>
               </div>
               <div class="exp-content">
-                <div class="exp-role">Senior Analyst HR Generalist → HR & Payroll Analyst</div>
+                <div class="exp-role">Senior Analyst HR Generalist → HR &amp; Payroll Analyst</div>
                 <div class="exp-company">Dell Technologies · May 2015 – Sep 2021</div>
                 <div class="exp-highlight">Payroll ops for 1,500+ employees, HR case management across Americas</div>
               </div>
             </div>
           </div>
 
-          <div class="card-section-title">Platforms & Tools</div>
+          <div class="card-section-title">Platforms &amp; Tools</div>
           <div class="tags-cluster">
             <span class="ctag ctag-key">Workday</span><span class="ctag ctag-key">Dayforce</span><span class="ctag ctag-key">Deel</span><span class="ctag ctag-key">ServiceNow</span><span class="ctag ctag-key">Asana</span>
             <span class="ctag">HRIS Administration</span><span class="ctag">End-to-End Payroll</span>
@@ -908,7 +1052,7 @@
               <div class="card-name">Jenniffer S.</div>
               <div class="card-location">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                Guatemala · 15 yrs HR & Talent Acquisition
+                Guatemala · 15 yrs HR &amp; Talent Acquisition
               </div>
               <div class="card-badges">
               </div>
@@ -972,7 +1116,7 @@
             </div>
           </div>
 
-          <div class="card-section-title">Platforms & Tools</div>
+          <div class="card-section-title">Platforms &amp; Tools</div>
           <div class="tags-cluster">
             <span class="ctag ctag-key">LinkedIn Recruiter</span><span class="ctag ctag-key">Eightfold</span><span class="ctag ctag-key">Workday</span><span class="ctag ctag-key">SAC Payroll</span><span class="ctag ctag-key">Psychometric Testing</span>
             <span class="ctag">Slack</span><span class="ctag">Teams</span><span class="ctag">Outlook</span>
@@ -998,11 +1142,11 @@
               <div class="bar-track"><div class="bar-fill" style="width:96%"></div></div>
             </div>
             <div class="bar-item">
-              <div class="bar-label">Onboarding & Orientation</div>
+              <div class="bar-label">Onboarding &amp; Orientation</div>
               <div class="bar-track"><div class="bar-fill" style="width:93%"></div></div>
             </div>
             <div class="bar-item">
-              <div class="bar-label">Payroll & Compliance</div>
+              <div class="bar-label">Payroll &amp; Compliance</div>
               <div class="bar-track"><div class="bar-fill" style="width:82%"></div></div>
             </div>
             <div class="bar-item">
@@ -1050,7 +1194,7 @@
         </thead>
         <tbody>
           <tr><td><strong>Location</strong></td><td>Panamá</td><td>Guatemala</td></tr>
-          <tr><td><strong>Experience</strong></td><td>15+ yrs HR & Operations</td><td>15 yrs HR & Talent Acquisition</td></tr>
+          <tr><td><strong>Experience</strong></td><td>15+ yrs HR &amp; Operations</td><td>15 yrs HR &amp; Talent Acquisition</td></tr>
           <tr><td><strong>Key Employers</strong></td><td>Dell Technologies, Bloomberg Línea, One Identity</td><td>PayPal, Ajemaya/Big Cola, GPO Vallas</td></tr>
           <tr><td><strong>Core Strength</strong></td><td>Payroll Ops, People Strategy, Cross-Regional HR</td><td>Talent Acquisition, High-Volume Hiring, Onboarding</td></tr>
           <tr><td><strong>HRIS / Tools</strong></td><td>Workday, Dayforce, Deel, ServiceNow</td><td>LinkedIn Recruiter, Eightfold, Workday, SAC</td></tr>
@@ -1100,4 +1244,4 @@ function showBatch(n) {
   if (btn) btn.classList.add('active');
 }
 </script>
-</body></html>
+<script data-batch-js="1">function showBatch(n){document.querySelectorAll('.batch-panel').forEach(p=>p.classList.add('hidden'));document.querySelectorAll('.batch-btn').forEach(b=>b.classList.remove('active'));var p=document.getElementById('batch-'+n);var b=document.querySelector('[data-batch="'+n+'"]');if(p)p.classList.remove('hidden');if(b)b.classList.add('active');}</script></body></html>
